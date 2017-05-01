@@ -1,4 +1,4 @@
-# learning-flask
+# Learning Flask - v0.12.1
 I'm learning [Flask](http://flask.pocoo.org)!
 
 I will create this flask app with macOS. All the steps in this tutorial will assume someone is starting with a fresh install of macOS.
