@@ -42,7 +42,7 @@ pip install Flask
 
 You can try running ```flask --version``` to ensure it installed correctly. Alternatively, a file named ```requirements.txt``` contains all of the dependencies needed for this tutorial. Simply type ```pip install -r requirements.txt``` to install flask and all of the other dependencies this tutorial uses.
 
-## Step 2: Running Flask example
+## Step 2: Running Flask Example
 
 Enter the following in Mac's Terminal app to run the flask example:
 
