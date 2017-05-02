@@ -53,3 +53,7 @@ python routes.py
 Then, navigate a browser window to [http://127.0.0.1:5000](http://127.0.0.1:5000) to see the result.
 
 In this example ```routes.py``` is using the ```index()``` function to load the ```index.html``` example found in ```templates/index.html```. The CSS for this example is located in ```static/css/main.css```.
+
+Next, we'll look at an example with multiple pages that reuse templates. Before we move on, let me explain how the rest of the examples will work. I've created separate folders for the rest of the steps that each represent their own Flask app. This allows me to compartmentalize the lessons as I learn to use Flask. Simply click the link to a step below, or change directories to the appropriate step and run the ```routes.py``` file the same way you did for this example. The ```README.md``` files within each folder will explain the new concepts.
+
+[Step 3]()
