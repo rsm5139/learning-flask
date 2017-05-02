@@ -56,4 +56,4 @@ In this example ```routes.py``` is using the ```index()``` function to load the 
 
 Next, we'll look at an example with multiple pages that reuse templates. Before we move on, let me explain how the rest of the examples will work. I've created separate folders for the rest of the steps that each represent their own Flask app. This allows me to compartmentalize the lessons as I learn to use Flask. Simply click the link to a step below, or change directories to the appropriate step and run the ```routes.py``` file the same way you did for this example. The ```README.md``` files within each folder will explain the new concepts.
 
-[Step 3]()
+[Step 3](https://github.com/rsm5139/learning-flask/tree/master/step_3)
