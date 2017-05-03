@@ -10,7 +10,7 @@ Flask uses a templating system called Jinja2. To learn more about Jinja2, please
 
 *Coming Soon*
 
-[Step 4: Database](#)
+[Step 4: Database](https://github.com/rsm5139/learning-flask/tree/master/step_4)
 
 [Step 5: Authentication](#)
 

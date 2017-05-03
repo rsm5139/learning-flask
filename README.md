@@ -62,7 +62,7 @@ Next, we'll look at an example with multiple pages that reuse templates. Before 
 
 *Coming Soon*
 
-[Step 4: Database](#)
+[Step 4: Database](https://github.com/rsm5139/learning-flask/tree/master/step_4)
 
 [Step 5: Authentication](#)
 
