@@ -1,0 +1,50 @@
+@media all and (max-width: 60em) {
+  /* Too narrow to support three columns */
+  main { display: block; }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+main { display: grid;
+  grid: "h h h"
+       "a b c"
+       "f f f";
+  grid-template-columns: 20% 1fr 20%;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+article { 
+  grid-area: b; 
+  min-width: 12em; 
+  min-height: 100%;
+}
+
+nav { 
+  grid-area: a; 
+  min-width: 12em; 
+}
+
+aside { 
+  grid-area: c; 
+  min-width: 12em; 
+}
+
+header { 
+  grid-area: h; 
+  min-width: 12em;
+  padding: 1em 20%;
+  background-color: lightgray;
+}
+
+footer   { 
+  grid-area: f; 
+  min-width: 12em; 
+  padding: 1em 20%;
+  background-color: darkgray;
+}
