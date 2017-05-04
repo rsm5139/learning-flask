@@ -8,10 +8,10 @@ Flask uses a templating system called Jinja2. To learn more about Jinja2, please
 
 [Step 1/2](https://github.com/rsm5139/learning-flask)
 
-*Coming Soon*
-
 [Step 4: Database and Forms](https://github.com/rsm5139/learning-flask/tree/master/step_4)
 
-[Step 5: Authentication and Sessions](#)
+*Coming Soon*
+
+[Step 5: Authentication and Sessions](https://github.com/rsm5139/learning-flask/tree/master/step_5)
 
 [Step 6: Reactive Design](#)

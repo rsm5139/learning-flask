@@ -60,10 +60,10 @@ Next, we'll look at an example with multiple pages that reuse templates. Before 
 
 [Step 3: Pages and Templates](https://github.com/rsm5139/learning-flask/tree/master/step_3)
 
-*Coming Soon*
-
 [Step 4: Database and Forms](https://github.com/rsm5139/learning-flask/tree/master/step_4)
 
-[Step 5: Authentication and Sessions](#)
+*Coming Soon*
+
+[Step 5: Authentication and Sessions](https://github.com/rsm5139/learning-flask/tree/master/step_5)
 
 [Step 6: Reactive Design](#)

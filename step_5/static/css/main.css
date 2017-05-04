@@ -1,66 +1,31 @@
-@media all and (max-width: 60em) {
-  /* Too narrow to support three columns */
-  main { display: block; }
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-}
-
-main { display: grid;
-  grid: "h h h"
-       "a b c"
-       "a n c"
-       "f f f";
-  grid-template-columns: 20% 1fr 20%;
-  grid-template-rows: auto 1fr auto auto;
-  min-height: 100vh;
-}
-
-article { 
-  grid-area: b; 
-  min-width: 12em; 
-  min-height: 100%;
-}
-
-form {
-  grid-area: n;
-  min-width: 12em;
-}
-
-nav { 
-  grid-area: a; 
-  min-width: 12em; 
-}
-
-aside { 
-  grid-area: c; 
-  min-width: 12em; 
-}
-
-header { 
-  grid-area: h;
-  min-width: 12em;
-  padding: 1em 20%;
-  background-color: lightgray;
-}
-
-footer   { 
-  grid-area: f; 
-  min-width: 12em; 
-  padding: 1em 20%;
-  background-color: darkgray;
-}
-
-#comment-block {
-  height: 3em;
-}
-
-#comment-block div.name {
-  clear: left;
-  float: left;
-  width: 8em;
-}
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
