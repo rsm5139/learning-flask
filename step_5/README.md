@@ -57,8 +57,6 @@ Compile the step 4 example with the ```python routes.py``` command. Refresh your
 
 There are 2 new files in this example: ```forms.py``` and ```models.py```. The former defines the class for the comment form, and the latter defines the class for the database. These classes are imported and used by ```routes.py```. The data are the passed off to the template to be utilized by Jinja2.
 
-This example simply takes a username and a comment, saves it to the database, and display's a list of previous names and comments. Not too complicated, but the next [example](#) will go even deeper by authorizing a user and creating a session.
-
 ## Other Steps
 
 [Step 1/2](https://github.com/rsm5139/learning-flask)
