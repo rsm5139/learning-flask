@@ -18,6 +18,8 @@ def index():
 @app.route("/login", methods=["GET", "POST"])
 def login():
     form = Login()
+    if 'email' in session:
+        return redirect(url_for("index"))
     if request.method == "POST":
         if form.validate() == False:
             return render_template("login.html", form=form)
@@ -36,6 +38,8 @@ def login():
 @app.route("/register", methods=["GET", "POST"])
 def register():
     form = Register()
+    if 'email' in session:
+        return redirect(url_for("index"))
     if request.method == "POST":
         if form.validate() == False:
             return render_template("register.html", form=form)
@@ -54,6 +58,8 @@ def logout():
 
 @app.route("/secret")
 def secret():
+    if 'email' not in session:
+        return redirect(url_for("login"))
     return render_template("secret.html")
 
 if __name__ == "__main__":

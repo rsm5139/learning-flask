@@ -31,7 +31,11 @@
             <li><a href="{{ url_for('register') }}">Register</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            {% if session['email'] %}
+            <li><a href="{{ url_for('logout') }}"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            {% else %}
             <li><a href="{{ url_for('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            {% endif %}
           </ul>
         </div>
       </div>
