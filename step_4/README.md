@@ -65,8 +65,8 @@ This example simply takes a username and a comment, saves it to the database, an
 
 [Step 3: Pages and Templates](https://github.com/rsm5139/learning-flask/tree/master/step_3)
 
-*Coming Soon*
-
 [Step 5: Authentication and Sessions](https://github.com/rsm5139/learning-flask/tree/master/step_5)
 
-[Step 6: Reactive Design](#)
+*Coming Soon*
+
+[Step 6: Reactive Design](https://github.com/rsm5139/learning-flask/tree/master/step_6)

@@ -3,6 +3,14 @@ I'm learning [Flask](http://flask.pocoo.org)!
 
 I will create this flask app with macOS. All the steps in this tutorial will assume someone is starting with a fresh install of macOS.
 
+## Step 0: What This Is
+
+Let me explain my philosophy behind what this is and why I'm doing it. First, this is **not** a full-fledged tutorial for using Flask. It is more like a breadcrumb trail for me to retrace my steps while I am learning Flask. I am searching the internet and looking for help in other tutorials, then creating working examples for me to test. As such, I'm not going into much detail in my steps and this tutorial won't build a deep understanding. The examples and code should be used like a playground for testing things.
+
+So, if you want to read about Flask and learn that way, try some [other resources](https://www.fullstackpython.com/flask.html).
+
+Here's how my examples can help you. I have multiple examples that can be easily run from a terminal. So you won't have to piece together code from other tutorials to see this work. Furthermore, the examples isolate some key concepts. You don't have to see the lines of code that verify sessions while learning about the database, for example. Just go right to the step with a concept you need to learn, run it, then look at the code to see how it fits together. And don't be afraid to tinker!
+
 ## Step 1: Installation
 
 The first part of installation will cover installing Anaconda3 and creating a virtual environment to work from. This is completely optional and you can skip ahead to the 'Installing Flask' section.
@@ -62,8 +70,8 @@ Next, we'll look at an example with multiple pages that reuse templates. Before 
 
 [Step 4: Database and Forms](https://github.com/rsm5139/learning-flask/tree/master/step_4)
 
-*Coming Soon*
-
 [Step 5: Authentication and Sessions](https://github.com/rsm5139/learning-flask/tree/master/step_5)
 
-[Step 6: Reactive Design](#)
+*Coming Soon*
+
+[Step 6: Reactive Design](https://github.com/rsm5139/learning-flask/tree/master/step_6)

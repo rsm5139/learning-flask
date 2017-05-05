@@ -47,4 +47,4 @@ While this example works well as a demonstration, it is not robust enough for a 
 
 *Coming Soon*
 
-[Step 6: Reactive Design](#)
+[Step 6: Reactive Design](https://github.com/rsm5139/learning-flask/tree/master/step_6)
