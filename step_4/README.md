@@ -55,7 +55,7 @@ Same thing as the last step. You either installed this in [step 1.3](https://git
 
 Compile the step 4 example with the ```python routes.py``` command. Refresh your Flask app browser window or navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000). 
 
-There are 2 new files in this example: ```forms.py``` and ```models.py```. The former defines the class for the comment form, and the latter defines the class for the database. These classes are imported and used by ```routes.py```. The data are the passed off to the template to be utilized by Jinja2.
+There are 2 new files in this example: ```forms.py``` and ```models.py```. The former defines the class for the comment form, and the latter defines the class for the database. These classes are imported and used by ```routes.py```. The data are then passed off to the template to be utilized by Jinja2.
 
 This example simply takes a username and a comment, saves it to the database, and display's a list of previous names and comments. Not too complicated, but the next [example](https://github.com/rsm5139/learning-flask/tree/master/step_5) will go even deeper by authorizing a user and creating a session.
 

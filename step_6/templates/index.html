@@ -1,6 +1,46 @@
-{% extends "page.html" %}
-{% block title %}Home{% endblock %}
-{% block article %}
-<h1>This is my title followed by some ipsum</h1>
-<p>{{ super() }}</p>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Load last for overrides -->
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid text-center">    
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+          <p><a href="#">Link</a></p>
+          <p><a href="#">Link</a></p>
+          <p><a href="#">Link</a></p>
+        </div>
+        <div class="col-sm-10 text-left"> 
+          <div id="content"></div>
+        </div>
+      </div>
+    </div>
+   <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script type="text/jsx">
+      /*** @jsx React.DOM */
+      var realPython = React.createClass({
+        render: function() {
+          return (<h2>Greetings, from Real Python!</h2>);
+        }
+      });
+      ReactDOM.render(
+        React.createElement(realPython, null),
+        document.getElementById('content')
+      );
+    </script>
+  </body>
+</html>
